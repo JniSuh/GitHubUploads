@@ -26,20 +26,21 @@ Player can change settings, such as game volume, text size and player height in 
 ### Controls
 
 Keyboard & mouse:
-
-> Look around = Move mouse
-> 
-> Teleport = Mouse LeftClick
-> 
-> Interact with buttons = Mouse RightClick
-> 
-> Interact with menu and UI = Mouse RightClick
-> 
-> Shoot (during minigames) = Mouse RightClick
-> 
-> Move puzzle pieces (during puzzle game) = Mouse LeftClick
-> 
-> Open menu = Keyboard Esc_(Escape)_
+```
+ Look around = Move mouse
+ 
+ Teleport = Mouse LeftClick
+ 
+ Interact with buttons = Mouse RightClick
+ 
+ Interact with menu and UI = Mouse RightClick
+ 
+ Shoot (during minigames) = Mouse RightClick
+ 
+ Move puzzle pieces (during puzzle game) = Mouse LeftClick
+ 
+ Open menu = Keyboard Esc_(Escape)_
+```
 
 
 VR:
@@ -57,21 +58,23 @@ VR:
  Open menu = Either controller Joystick / Touchpad Press
 ```
 
-Mobile (onscreen controls):
 
-> Look around = Joystick (Lower left corner)
-> 
-> Teleport = Touch area on screen
->
-> Interact with buttons = Touch button on screen
-> 
-> Interact with menu and UI = Touch element on screen
-> 
-> Shoot (during minigames) = Shoot button (Lower right corner)
-> 
-> Move puzzle pieces (during puzzle game) = Touch desired piece and then touch where to set the piece
-> 
-> Open menu = Menu button (Upper right corner)
+Mobile (onscreen controls):
+```
+ Look around = Joystick (Lower left corner)
+ 
+ Teleport = Touch area on screen
+
+ Interact with buttons = Touch button on screen
+ 
+ Interact with menu and UI = Touch element on screen
+ 
+ Shoot (during minigames) = Shoot button (Lower right corner)
+ 
+ Move puzzle pieces (during puzzle game) = Touch desired piece and then touch where to set the piece
+ 
+ Open menu = Menu button (Upper right corner)
+```
 
 
 
