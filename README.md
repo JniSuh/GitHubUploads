@@ -106,4 +106,6 @@ When running app in Unity Editor,
 
 When building the app, enable all Player\_\* controls to avoid possible control errors.
 
+Check that the _XR Device Simulator_ is disabled, otherwise VR won't work.
+
 Also disable _Developer mode_ from AssetManager in inspector (If left enabled, app doesn't automatically detect and change platforms upon running).
