@@ -79,10 +79,11 @@ Mobile (onscreen controls):
 
 When app starts up, AssetManager recognises which platform is in use, which other scripts use to perform appropriate actions for that platform (eg. doesn't open full screen menu for VR).
 
-When player presses a button, MouseSelection makes a Raycast from the right hand to the button to determine the distance and get the button name, which is used to differentiate what each button does in a switch case. After button is pressed, it flashes green and during that flash MouseSelection is rendered disabled by an if condition at the start of Update. After the delay, MouseSelection changes pressed button's color back. Button is pressed when the interact input button is **released** when pointing to a button. This causes a problem where if gun is pointed at a button, bullets shoot when the input button is **pressed** and the button is clicked again when the input button is released afterwards.
+When player presses a button, MouseSelection makes a Raycast from the right hand (or middle of screen or touch position on screen, depending on platform) to the button to determine the distance and to get the button name, which is used to differentiate what each button does in a switch case. After button is pressed, it flashes green and during that flash, MouseSelection is rendered disabled by an if condition at the start of Update. After the delay, MouseSelection changes pressed button's color back. Button is pressed when the interact input button is **released** when pointing to a button. This causes a problem where if gun is pointed at a button, bullet launches when the input button is **pressed** (stopping the game) and the button is clicked again when the input button is released afterwards (starting the game again).
 
-When starting pigeon or can game, the AssetManager.SwitchGame() method gets right hand's child (current hand model), deletes it and replaces it with the gun model. Same but reverse happens when game ends. Game ends if bullets run out, or bullet hits any button.
+When starting pigeon or can game, the AssetManager.SwitchGame() method gets the right hand's child (current hand model), deletes it and replaces it with the gun model. Same but reverse happens when game ends. Game ends if bullets run out, bullet hits any button or player teleports from menu.
 
+When entering a 360 image, MouseSelection saves player's current location before teleporting player inside the image and when exiting the image, returns player to the aforementioned saved location. If VR is enabled, also rescales player to 0.1 to prevent player from just walking out of the image, as the image balls are quite small.
 
 
 
