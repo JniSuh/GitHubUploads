@@ -43,19 +43,19 @@ Keyboard & mouse:
 
 
 VR:
-
-> Teleport = Left controller Trigger
-> 
-> Interact with buttons = Right controller Grab
-> 
-> Interact with menu and UI = Left controller Trigger **OR** Right controller Grab + Trigger
-> 
-> Shoot (during minigames) = Right controller Trigger
-> 
-> Move puzzle pieces (during puzzle game) = Right controller Trigger (hold Grab to point out the piece)
-> 
-> Open menu = Either controller Joystick / Touchpad Press
-
+```
+ Teleport = Left controller Trigger
+ 
+ Interact with buttons = Right controller Grab
+ 
+ Interact with menu and UI = Left controller Trigger **OR** Right controller Grab + Trigger
+ 
+ Shoot (during minigames) = Right controller Trigger
+ 
+ Move puzzle pieces (during puzzle game) = Right controller Trigger (hold Grab to point out the piece)
+ 
+ Open menu = Either controller Joystick / Touchpad Press
+```
 
 Mobile (onscreen controls):
 
