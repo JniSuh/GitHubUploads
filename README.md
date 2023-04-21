@@ -5,6 +5,7 @@ Interactable gallery application of Kuopio, which also includes multiple arcade-
 Supports Windows platform with either keyboard & mouse or VR headset, and mobile touchscreen devices using Android.
 
 
+
 ### Game explanation
 When game starts, player arrives atop of Puijon torni, from which they can navigate around the walking plaform to find buttons leading to the gallery or the arcade room.
 
@@ -19,6 +20,7 @@ On the other hand in the arcade room, the player can find the following games:
 **Puzzle game**, where the objective is to complete the puzzle, shocker. Player can choose which 1 of 3 images to complete. Images are changeable mid-game.
 
 Player can change settings, such as game volume, text size and player height in the settings UI, found inside the menu.
+
 
 
 ### Controls
@@ -72,6 +74,7 @@ Mobile (onscreen controls):
 > Open menu = Menu button (Upper right corner)
 
 
+
 ### Game logic explained
 
 When app starts up, AssetManager recognises which platform is in use, which other scripts use to perform appropriate actions for that platform (eg. doesn't open full screen menu for VR).
@@ -79,6 +82,8 @@ When app starts up, AssetManager recognises which platform is in use, which othe
 When player presses a button, MouseSelection makes a Raycast from the right hand to the button to determine the distance and get the button name, which is used to differentiate what each button does in a switch case. After button is pressed, it flashes green and during that flash MouseSelection is rendered disabled by an if condition at the start of Update. After the delay, MouseSelection changes pressed button's color back. Button is pressed when the interact input button is **released** when pointing to a button. This causes a problem where if gun is pointed at a button, bullets shoot when the input button is **pressed** and the button is clicked again when the input button is released afterwards.
 
 When starting pigeon or can game, the AssetManager.SwitchGame() method gets right hand's child (current hand model), deletes it and replaces it with the gun model. Same but reverse happens when game ends. Game ends if bullets run out, or bullet hits any button.
+
+
 
 
 # !Important!
