@@ -60,7 +60,7 @@ Mobile (onscreen controls):
 > Look around = Joystick (Lower left corner)
 > 
 > Teleport = Touch area on screen
-
+>
 > Interact with buttons = Touch button on screen
 > 
 > Interact with menu and UI = Touch element on screen
@@ -81,7 +81,7 @@ When player presses a button, MouseSelection makes a Raycast from the right hand
 When starting pigeon or can game, the AssetManager.SwitchGame() method gets right hand's child (current hand model), deletes it and replaces it with the gun model. Same but reverse happens when game ends. Game ends if bullets run out, or bullet hits any button.
 
 
-## !Important!
+# !Important!
 
 ### Developement notes
 
