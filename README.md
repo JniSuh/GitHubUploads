@@ -92,13 +92,13 @@ When starting pigeon or can game, the AssetManager.SwitchGame() method gets righ
 
 When running app in Unity Editor,
 
-> Enable _Developer mode_ from AssetManager in inspector
-> 
-> Disable other player controls if not in use (eg. if using Player_Mouse, disable Player\_Mobile and Player\_VR)
-> 
-> To use VR in Developer mode, enable _is XR Present_ from AssetManager in inspector
-> 
-> To simulate VR using keyboard, enable _XR Device Simulator_ GameObject under _Player\_VR_ GameObject, otherwise disable it
+- Enable _Developer mode_ from AssetManager in inspector
+ 
+- Disable other player controls if not in use (eg. if using Player_Mouse, disable Player\_Mobile and Player\_VR)
+ 
+- To use VR in Developer mode, enable _is XR Present_ from AssetManager in inspector
+ 
+- To simulate VR using keyboard, enable _XR Device Simulator_ GameObject under _Player\_VR_ GameObject, otherwise disable it
 
 
 ### Build notes
